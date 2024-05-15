@@ -9,14 +9,17 @@ use Symfony\Component\Routing\Annotation\Route;
 class AcceuilController extends AbstractController
 {
     /**
-     * @Route("/accueil", name="app_acceuil", methods={"GET "})
+     * @Route("/accueil", name="app_acceuil", methods={"GET"})
      */
     public function index(): Response
     {
-        return $this->render('acceuil/index.html.twig', );
+       
+        return $this->render('acceuil/index.html.twig',);
+           
     }
 
 }
+
 
 
 
